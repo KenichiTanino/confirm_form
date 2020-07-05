@@ -1,0 +1,27 @@
+{
+  "name": "confirm_form",
+  "version": "1.0.0",
+  "description": "confirm_form ",
+  "author": "tanino",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "validate.js": "^0.13.1",
+    "validator": "^13.0.0",
+    "vee-validate": "^3.3.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
