@@ -48,24 +48,6 @@
 </template>
 
 <script>
-// see: https://teratail.com/questions/231233
-import isIP from 'validator/lib/isIP';
-const validate_ip = value => isIP(String(value));
-
-import { extend } from 'vee-validate';
-import { required, email } from 'vee-validate/dist/rules';
-
-extend("ipaddr", {
-  params: [],
-  validate: (value) => {
-    if (validate_ip(value)) {
-      return true;
-    }
-    return false;
-  },
-  message:
-    "IPAddress must be valid"
-});
 
 export default {
   props: ['user'], 
