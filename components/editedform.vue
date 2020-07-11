@@ -66,9 +66,6 @@ export default {
     }
   },
   computed: {
-    //user () {
-    //  return this.$store.getters['getUser']
-    //},
   },
   methods: {
     submit () {
