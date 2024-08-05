@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^3.12.4",
     "validate.js": "^0.13.1",
     "validator": "^13.7.0",
     "vee-validate": "^3.3.1"
